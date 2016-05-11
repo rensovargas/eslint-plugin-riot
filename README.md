@@ -7,14 +7,14 @@ An [ESLint](http://eslint.org/) plugin to extract and lint scripts from [riot](r
 
 Supported extensions are `.html` and `.tag`.
 
-It only lints `es6` and `babel` script in tag.
+lints `es6` and `text/javascript` script in tag.
 
 ### Usage
 
 Install the plugin:
 
 ```sh
-npm install --save-dev eslint-plugin-riot
+npm install --save-dev @rensovargas/eslint-plugin-riot
 ```
 
 Add it to your `.eslintrc`:
@@ -43,17 +43,3 @@ Write your riot tag file with extension `.html` or `.tag`, and wrap your script 
   </script>
 </postcell>
 ```
-
-### Example
-
-[Here](https://github.com/txchen/feplay/tree/gh-pages/riot_webpack) is an example of project that use riot + es6 + webpack + eslint + eslint-plugin-riot. It will show you how to use this plugin to configure your project.
-
-
-[codeclimate-image]:https://codeclimate.com/github/txchen/eslint-plugin-riot/badges/gpa.svg
-[codeclimate-url]:https://codeclimate.com/github/txchen/eslint-plugin-riot
-
-[npm-version-image]:http://img.shields.io/npm/v/eslint-plugin-riot.svg?style=flat-square
-[npm-url]:https://www.npmjs.com/package/eslint-plugin-riot
-
-[travis-image]:https://api.travis-ci.org/txchen/eslint-plugin-riot.svg?branch=master
-[travis-url]:https://travis-ci.org/txchen/eslint-plugin-riot
