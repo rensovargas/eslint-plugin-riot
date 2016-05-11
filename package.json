@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/txchen/eslint-plugin-riot.git"
+    "url": "git+https://github.com/rensovargas/eslint-plugin-riot.git"
   },
   "keywords": [
     "eslint",
@@ -18,17 +18,16 @@
     "lint",
     "linter"
   ],
-  "author": "Tianxiang Chen",
+  "author": "Renso Vargas",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/txchen/eslint-plugin-riot/issues"
-  },
-  "homepage": "https://github.com/txchen/eslint-plugin-riot#readme",
+  "homepage": "https://github.com/rensovargas/eslint-plugin-riot",
   "devDependencies": {
-    "eslint": "^1.6.0",
     "tape": "^4.2.1"
   },
   "dependencies": {
     "htmlparser2": "^3.8.3"
+  },
+  "peerDependencies": {
+    "eslint": "^2.9.0"
   }
 }
